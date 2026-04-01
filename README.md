@@ -50,11 +50,6 @@ python backend_api/api.py
 3. Pilih file: manifest.json
 ```
 
-### Step 4: (Optional) Run Desktop App
-```bash
-python desktop_app/desktop_app.py
-```
-
 ---
 
 ## 📖 Cara Kerja
@@ -82,7 +77,7 @@ python desktop_app/desktop_app.py
                        ▼
 ┌──────────────────────────────────────────────────────────────┐
 │       ML Model Decision (API: api.py)                        │
-│       - Extract 56 features                                 │
+│       - Extract 71 features                                 │
 │       - Random Forest prediction                            │
 │       - Get risk factors                                    │
 └──────────────────────┬──────────────────────────────────────┘
@@ -159,15 +154,7 @@ Automatic Klik Phising Detection With AI/
 │   ├── content.js          # 🎯 Link interceptor
 │   ├── popup.html          # 🖼️ Control panel
 │   └── popup.js            # ⚙️ Popup logic
-│
-├── desktop_app/
-│   └── desktop_app.py      # 🖥️ PyQt5 system tray app
-│
-├── setup.py                # ⚙️ Setup & configuration
-├── requirements.txt        # 📦 Python dependencies
-├── start.bat              # 🚀 Windows launcher
-├── start.sh               # 🚀 Unix launcher
-└── README.md              # 📖 This file
+
 ```
 
 ---
@@ -336,26 +323,9 @@ Debug:
 - Check API response
 ```
 
-### Desktop App crash
-```
-Solution:
-1. PyQt5 belum install:
-   pip install PyQt5
-2. Coba run langsung:
-   python desktop_app/desktop_app.py
-3. Check error message di console
-```
-
 ---
 
 ## 📊 Statistics & Monitoring
-
-### Desktop App Dashboard
-- Total URLs checked
-- Phishing detected
-- Safe URLs
-- Real-time status
-
 ### View in Extension
 - Popup icon menunjukkan extension ON/OFF
 - Click untuk open control panel
@@ -409,7 +379,6 @@ curl -X POST http://localhost:5001/api/check-url \
 - Extension bekerja di semua website
 - Popup hanya muncul jika phishing terdeteksi
 - Safe URLs tidak ada popup (seamless UX)
-- Desktop app optional (API dapat berjalan tanpa)
 - System memory ~50-150 MB
 
 ---
