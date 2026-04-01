@@ -18,12 +18,6 @@ Sistem otomatis untuk mendeteksi phishing URLs saat Anda mengklik link. **Tidak 
    - Response cepat (<500ms)
    - Dukungan batch check
 
-3. **Desktop App** (System Tray)
-   - Minimize ke taskbar
-   - Toggle on/off detection
-   - Real-time statistics
-   - Dashboard monitoring
-
 ---
 
 ## 🚀 Instalasi Cepat
