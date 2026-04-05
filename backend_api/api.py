@@ -1,7 +1,7 @@
 """
 Backend API untuk Browser Extension & Desktop App
 Standalone Flask server untuk deteksi URL phishing otomatis
-
+"""
 import os
 import sys
 import logging
