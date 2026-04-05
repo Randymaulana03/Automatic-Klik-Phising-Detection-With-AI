@@ -1,6 +1,7 @@
 # 🛡️ Automatic Phishing Detection System
 
-Sistem otomatis untuk mendeteksi phishing URLs saat Anda mengklik link. **Tidak perlu copy-paste URL lagi!**
+Sistem otomatis untuk mendeteksi phishing URLs saat Anda mengklik link. **Tidak perlu copy-paste URL lagi!**<br>
+untuk technical report bisa di akses di folder **docs -> TECHNICAL_REPORT.MD**
 
 ## ✨ Fitur Utama
 
